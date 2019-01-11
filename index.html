@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Dominykas Navickas </title>
+
+    <!-- linking files to together, BootStrap,Css,Lightbox and a custom icon on the page !-->
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="bootstrap-4.1.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/fixed.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+  </head>
+  <!-- Id given to the navigation to where the website will scroll to !-->
+  <body data-spy="scroll" data-target="#navbarResponsive">
+
+<!-- offsetclass makes sure the nav does not lay on on top of the scrolling !-->
+<!-- Start Home Section !-->
+<div id="home">
+
+<!-- Navigation !-->
+<!-- container fluid makes sure 100% content is show if the window is resized !-->
+<!-- navbar explains that the menu is expanded up 768px and up and that it is fixed to the top !-->
+<nav class="navbar navbar-expand-md fixed-top">
+<div class="container-fluid">
+	<a class="navbar-brand" href="#"><img src="img/nest.png" alt=""></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="custom-toggler-icon"><i class="fas fa-bars"></i></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="#home">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#skills">Skills</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#work">Work</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#about">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#contact">Contact</a>
+			</li>
+		</ul>
+	</div>
+</div>
+</nav>
+<!--- End Navigation -->
+<!--- particle.js is inserted within the landing page -->
+<!--- Start Landing Page Image -->
+<div class="landing">
+  <div id="particles-js">
+    <div class="home-wrap">
+        <div class="home-inner">
+</div>
+</div>
+</div>
+</div>
+<!--- End Landing Page Image -->
+
+<!--- Start Landong Page Caption -->
+<div class ="caption center-block text-center">
+
+  <h3> Welcome to my Website</h3>
+
+  <!--- Code for displaying my info on the landing page -->
+
+    <a class="btn btn-outline-light" href="#contact">Get in Touch</a>
+
+    </div>
+<!--- End Landong Page Caption -->
+
+</div>
+
+<!--- Start Animated Text -->
+<h1 class="type"></h1>
+<script type= "text/javascript" src="js/typed.js"></script>
+<script type= "text/javascript">
+    var typed= new Typed(".type", {
+        strings:[
+          "Dominykas Navickas","Web Developer","Graphic Designer","Creative Technologist"
+        ],
+        typeSpeed:50,
+        backSpeed:50,
+        loop:true
+
+
+    })
+
+    </script>
+
+<!--- End of Animated Text -->
+
+
+
+<!-- End of Home Section !-->
+
+<!-- Start about Section !-->
+<div id="skills"class="offset">
+<!--- Start of Jumbotron -->
+<div class="jumbotron">
+<h3 class= "heading">skills</h3>
+  <div class="heading-underline"></div>
+
+<div class="row narrow">
+    <div class="col-md-4">
+      <div class="about text-center" >
+        <btn class="work" href="#work">
+        <i class="fab fa-accusoft fa-3x"></i>
+      </btn>
+        <h3> Graphic Design </h3>
+        <p> I am highly proficient with using the Adobe suite applications,
+          from developing overall layouts and production designs for
+          various projects to advertisements to UX layouts and app/web designs.</p>
+      </div>
+    </div>
+
+
+
+
+
+<div class="col-md-4">
+  <div class="about text-center">
+      <i class="fab fab fa-codepen fa-3x"></i>
+      <h3> App Development</h3>
+      <p>Designing creative prototypes according to specifications,
+          great understanding of software design and programming principles.
+          Write high quality source code to program, complete applications within deadlines </p>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="about text-center">
+      <i class="fab fa-chrome fa-3x"></i>
+      <h3> Web Design</h3>
+      <p>Both creatively and technically inclined, to build or redesign websites.
+        Strong ability to create functional and easy to use websites.
+        Able to create aesthetically appealing to the sites.</p>
+    </div>
+  </div>
+
+
+
+</div><!--- End row -->
+</div><!--- End of Jumbotron -->
+
+
+</div>
+
+<!-- End of about Section !-->
+
+<!-- Start portfolio Section !-->
+<div id="work"class="offset">
+<div class="container fluid padding">
+<h3 class="heading">work</h3>
+<div class="heading-underline"></div>
+ <!-- Start Portfolio Grid !-->
+ <div class="row no-padding">
+
+ 	<div class="col-md-6">
+ 		<div class="portfolio-item">
+ 			<a href="img/portfolio/1.png" data-lightbox="example-set" data-title="My Portfolio Image Description">
+ 				<img class="example-image" src="img/portfolio/1.png" alt="">
+ 			</a>
+ 		</div>
+ 	</div>
+
+ 	<div class="col-md-6">
+ 		<div class="portfolio-item">
+ 			<a href="img/portfolio/2.png" data-lightbox="example-set">
+ 				<img class="example-image" src="img/portfolio/2.png" alt="">
+ 			</a>
+ 		</div>
+ 	</div>
+
+ 	<div class="col-md-6">
+ 		<div class="portfolio-item">
+ 			<a href="img/portfolio/3.png" data-lightbox="example-set">
+ 				<img class="example-image" src="img/portfolio/3.png" alt="">
+ 			</a>
+ 		</div>
+ 	</div>
+
+ 	<div class="col-md-6">
+ 		<div class="portfolio-item">
+ 			<a href="img/portfolio/4.png" data-lightbox="example-set">
+ 				<img class="example-image" src="img/portfolio/4.png" alt="">
+ 			</a>
+ 		</div>
+ 	</div>
+
+</div>  <!-- End Row !-->
+
+
+ <!-- End Portfolio Grid !-->
+</div> <!-- End of Container !-->
+
+
+
+
+</div>
+
+<!-- End of portfolio Section !-->
+
+<!-- Start blog Section !-->
+<div id="about"class="offset">
+
+  <div class="jumbotron">
+
+  	<h3 class="heading">About</h3>
+  	<div class="heading-underline"></div>
+
+  <div class="row narrow">
+
+  	<div class="col-md-4">
+  		<div class="card text-center">
+  			<img class="card-img-top" src="img/testimonials/1.png" alt="">
+  			<div class="card-body">
+  				<h4>Dominykas Navickas</h4>
+  				<h5>Creative Technologist</h5>
+  				<p>I am 22 year multi-displinary creative designer, I excel at using the Adobe suite applications,app development and creating protypes for other types of media.I am a strong fan of clean and sophisticated UX/UI layouts.</p>
+  			</div>
+  		</div>
+  	</div>
+
+  	<div class="col-md-4">
+  		<div class="card text-center">
+  			<img class="card-img-top" src="img/testimonials/2.png" alt="">
+  			<div class="card-body">
+  				<h4>Jessica Miller</h4>
+  				<h5>President, Company Inc.</h5>
+  				<p>"I have over 10 years of experience in technology and haven't come accross a better service."</p>
+  			</div>
+  		</div>
+  	</div>
+
+    <div class="col-md-4">
+      <div class="card text-center">
+        <img class="card-img-top" src="img/testimonials/1.png" alt="">
+        <div class="card-body">
+          <h4>John Lee</h4>
+          <h5>CEO, Company Inc.</h5>
+          <p>"I have over 10 years of experience in technology and haven't come accross a better service."</p>
+        </div>
+      </div>
+    </div>
+
+  </div> <!--- End Row -->
+  </div> <!--- End Jumbotron -->
+
+  </div>
+  <!--- End Testimonials Section -->
+
+</div>
+
+<!-- End of blog Section !-->
+
+<!-- Start contact  Section !-->
+<div id="contact"class="offset" >
+
+  <div class="container-fluid footer">
+  <div class="row">
+
+  	<div class="col-md-5">
+  		<img src="img/nest.png" alt="">
+  		<p>I am always looking forward to embarking on a new project. Feel free to contact me if you need some work done.</p>
+  		<strong>Contacting by post?</strong>
+  		<p>98A Queens Avenue<br>Watford,Hertfordshire</p>
+  		<strong>Contact Info</strong>
+      <p>Dominykas Navickas </p>
+  		<p>07401513882<br>domolyga@hotmail.co.uk</p>
+  		<a href="#"><i class="fab fa-facebook-square"></i></a>
+  		<a href="#"><i class="fab fa-twitter-square"></i></a>
+  		<a href="#"><i class="fab fa-google-plus-square"></i></a>
+  		<a href="#"><i class="fab fa-linkedin"></i></a>
+  	</div>
+
+  </div> <!--- End Row -->
+  </div> <!--- End Container Footer -->
+</div>
+
+<!-- End of contact Section !-->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Script Source Files !--> <!-- linking jquery and bootstrap to the site !-->
+    <!-- custom.js smooth scroll on click/tap !-->
+    <!-- lightbox is pop up image at the portfolio work section for the images !-->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap-4.1.0-dist/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+
+    <!-- End Source Files !-->
+
+  </body>
+</html>
