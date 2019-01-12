@@ -94,8 +94,23 @@ h1{
 	color: white;
 	font-size: 2.4rem;
 	text-transform: uppercase;
-	padding-bottom: 7rem;
+	padding-bottom: 10rem;
 }
+
+.type {
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 55%;
+	z-index: 1;
+
+
+}
+
+
+
+
+
 .btn {
 	border-width: medium;
 	border-radius: 0;
@@ -176,14 +191,25 @@ img.example-image {
 }
 
 /*============= TESTIMONIALS SECTION =============*/
+.card1 {
+	display:absolute;
+	margin-left: -8rem;
+	margin: 0px,1rem, 0rem;
+	border-radius: 0;
+ /* Added */
+  margin-bottom: 1rem; /* Added */
+}
 
-.card {
-	margin: 0 1rem;
-	border-radius: 0;
-}
 .card-img-top {
+	display:inline;
+	border-radius: 4px;
+
+
+}
+.card-img-top:active {
 	border-radius: 0;
 }
+
 .card h4 {
 	font-weight: 700;
 }
@@ -191,6 +217,43 @@ img.example-image {
 	color: #1e50af;
 }
 .card p {
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 1rem;
+	margin: 1rem 0 1.5rem;
+}
+.card {
+	display:absolute;
+	margin-left: 9rem;
+	margin: 0px,1rem, 0rem;
+	border-radius: 0;
+ /* Added */
+  margin-bottom: 5rem; /* Added */
+	padding-bottom: 1rem
+
+
+
+
+}
+
+
+}
+.card-img-top {
+	display:inline;
+	border-radius: 4px;
+
+
+}
+.card-img-top:active {
+	border-radius: 0;
+}
+
+.card1 h4 {
+	font-weight: 700;
+}
+.card h5 {
+	color: #1e50af;
+}
+.card1 p {
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 1rem;
 	margin: 1rem 0 1.5rem;
